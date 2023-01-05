@@ -49,7 +49,7 @@ footer a i {
   }
   
   footer h4 {
-  padding: 8px;
+  
   color: #f2f2f2;
   
   }
@@ -234,6 +234,7 @@ iframe{
     transform: translateY(-100%);
 }
 .redes{
+  font-size: 0.8em;
   display: flex;
   align-items:baseline;
   justify-items: center;
@@ -244,6 +245,12 @@ iframe{
 } */
 
 /* media queries para el menu*/
+@media screen and (max-width: 400px) {
+  .video h1,h2{
+    font-size: 6vw;
+  }
+}
+
 
 @media screen and (max-width: 700px){
     header .menu{
@@ -285,10 +292,10 @@ iframe{
 /*whatsapp flotante*/
 .whatsapp { 
   position:fixed; 
-  width:60px; 
-  height:60px;
+  width:50px; 
+  height:50px;
   bottom:90px;
-  right:40px;
+  right:25px;
   background-color:#21d964; 
   color:#FFF; 
   border-radius:50px; 

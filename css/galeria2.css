@@ -262,7 +262,7 @@ text-align: center;
   }
   
   .close{
-    top: 200px;
+    top: 100px;
     right: 20px;
   }
 } 
@@ -425,10 +425,10 @@ footer a {
 
 
 .redes{
+  font-size: 0.8em;
   display: flex;
-  flex-direction: row;
-
   align-items:baseline;
+  justify-items: center;
 
 }
 
@@ -442,7 +442,7 @@ padding: 10px;
 
 
 footer h4 {
-padding: 10px;
+
 color: #f2f2f2;
 
 }
@@ -463,13 +463,8 @@ color: #f2f2f2;
 .headroom--unpinned {
     transform: translateY(-100%);
 }
-.redes{
-  display: flex;
-  /* align-items: center; */
-  justify-items: center;
-  /* flex-direction: column; */
 
-}
+
 
 /* media queries para el munu*/
 
@@ -508,10 +503,10 @@ color: #f2f2f2;
 /*whatsapp flotante*/
 .whatsapp { 
   position:fixed; 
-  width:60px; 
-  height:60px;
+  width:50px; 
+  height:50px;
   bottom:40px;
-  right:40px;
+  right:25px;
   background-color:#21d964; 
   color:#FFF; 
   border-radius:50px; 
